@@ -299,6 +299,7 @@ button {
 
 .séparateur {
   margin-left: 375px;
+  width: 150px;
 }
 
 
@@ -356,6 +357,11 @@ button {
 * news
 */
 
+.tiff{
+  display: flex;
+  width: auto;
+}
+
 .news__link:hover {
   color: #d86324;
 }
@@ -376,7 +382,7 @@ button {
 
 .news__image {
   display: block;
-  width: 100%;
+  width: 500px;
 }
 
 .news__date {
@@ -414,9 +420,6 @@ button {
   align-items: flex-start;
 }
 
-.tiff{
-  display: flex;
-}
 
 .news--main .news__thumbnail {
   margin-bottom: 0;
@@ -430,13 +433,14 @@ button {
 .news-list {
   display: grid;
   grid-gap: 35px;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: auto;
   margin-bottom: 35px;
 }
 
 .news-list .news-list__news--main {
   grid-column: span 3;
+  width:600px;
 }
 
 .news-list__news {
