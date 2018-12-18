@@ -28,6 +28,8 @@ p {
   margin: 15px 0;
   text-align: center;
   margin-bottom: 40px;
+  font-size: 40px;
+  font-family: Montserrat, Arial;
 }
 
 b, strong, optgroup {
@@ -298,10 +300,20 @@ button {
 }
 
 .séparateur {
+  margin-top: 30px;
   margin-left: 375px;
   width: 150px;
+  margin-bottom: 30px;
 }
 
+.maps {
+margin: auto;
+}
+
+.nous_trouver {
+margin: auto;
+font-size: 50px;
+}
 
 /**
 * honey-pot
